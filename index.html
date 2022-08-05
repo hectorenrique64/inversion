@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Estilos css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Fons-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4bc3658ec9.js"></script>
+
+    <title>diseño3</title>
+</head>
+ 
+   
+    <div id="inicio">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light  navegacion fixed-top">
+            <a class="navbar-brand logo" href="#">Empresa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav nav-justified w-100 flex-column flex-lg-row menu">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#informacion">Informacion</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonios">Testimonios</a>
+                </li>
+              </ul>
+            </div>
+     
+          </nav>
+        </div>   
+        </div>
+    <section class=slider id="banner">
+     <div class="row no-gutters ">
+       <div  class="col-md-6 col-sm-12 ">
+         <img src="img/ladding.jpg" class="ladding img-fluid">
+        </div>
+       <div class="col-md-6 col-sm-12 slogan">
+          <div class="row no-gutters title">  
+           <div class="offset-4 col-4 offset-4 align-self-center">
+            <h2>Desarrollo y Alianza</h2>  
+            <p>La mejor inversion esta aqui</p>
+           </div>   
+          </div>
+        </div>
+       
+      </div>
+
+
+
+    </section>    
+
+    <section class="container py-4 nosotros" id="nosotros">
+        <h2 class="text-center py-2">Nosotros</h2>
+        <div class="row">
+            <div class="col-md-12">
+
+                <ul id="tabsJustified" class="nav nav-tabs">
+                    <li class="nav-item"><a href="" data-target="#home1" data-toggle="tab"
+                            class="nav-link small text-uppercase active">Somos</a></li>
+                    <li class="nav-item"><a href="" data-target="#profile1" data-toggle="tab"
+                            class="nav-link small text-uppercase ">Mision</a></li>
+                    <li class="nav-item"><a href="" data-target="#messages1" data-toggle="tab"
+                            class="nav-link small text-uppercase">Vision</a></li>
+                    <li class="nav-item"><a href="" data-target="#messages2" data-toggle="tab"
+                            class="nav-link small text-uppercase">Valores</a></li>
+                </ul>
+                <br>
+                <div id="tabsJustifiedContent" class="tab-content">
+                    <div id="home1" class="tab-pane active show">
+                        <h3>Nombre de la Empresa</h3>
+                        <p>Monterrey, Nuevo Leon, Mexico</p>
+                        <p>Desarrollamos diferentes soluciones para cada cliente en particular según sus
+                           requerimientos. Nuestro primer contacto con el cliente, es conocer su expectativas de desarrollo, el tipo de negocio, la forma y el procedimiento que realiza su negocio.
+                           Realizamos un informe con las capacidades tecnológica que cuenta la compañía</p>
+                           
+                    </div>
+                    <div id="profile1" class="tab-pane fade fade">
+                        <div class="row pb-2">
+                            <div class="col-md-7">
+                                <p>Ser una empresa innovadora y con gran sentido de responsabilidad social que busca el
+                                    máximo beneficio de nuestros clientes a través de la calidad de nuestras soluciones,
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="messages1" class="tab-pane fade">
+                        <p>Ser un aliado estratégico para nuestros clientes basados en soluciones y servicios</p>
+                    </div>
+                    <div id="messages2" class="tab-pane fade">
+                        <p>Los valores que constantemente aplicamos:</p>
+                        <ul>
+                             <li> Calidad</li>
+                            <li>Honestidad</li>
+                            <li>Responsabilidad</li>
+                           
+                            <li>Integridad</li>
+                      
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+     <!--servcios-->
+     <section class="servicios" id="servicios">
+      <div class="container">
+          <h2 class="text-center py-2">Servicios</h2>
+        <div class= "row">
+        <div class="col-md-6 col-sm-12 principal">
+            <img src="img/img1.jpg" class="img-fluid">
+            <h3 class="text-center titulo">Ventas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias suscipit tempore quos nulla nostrum expedita? Fuga iste dolorum, 
+                eaque fugiat, 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero labore, maiores necessitatibus ex ducimus eligendi animi eum ipsa nesciunt nulla quis, molestiae vel, quibusdam repudiandae illo deserunt voluptatum quisquam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque, similique quam provident vel libero possimus! Iusto, nostrum quisquam quam maiores mollitia distinctio, est tempore veniam, unde quae ex voluptates.
+        </p>
+
+        </div>
+        <div class="col-md-6 col-sm-12 secundarios"> 
+            <img src="img/img2.jpg" class="img-fluid">
+            <h3  class="text-center  titulo">Servicio2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias suscipit tempore quos nulla nostrum expedita? Fuga iste dolorum, 
+                eaque fugiat, </p>
+                <img src="img/img3.jpg" class="img-fluid">
+                <h3  class="text-center  titulo">Servicio3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias suscipit tempore quos nulla nostrum expedita? Fuga iste dolorum, 
+                    eaque fugiat, </p>
+                <img src="img/img4.jpg" class="img-fluid">
+                <h3  class="text-center  titulo">Servicio4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias suscipit tempore quos nulla nostrum expedita? Fuga iste dolorum, 
+                        eaque fugiat, </p>
+        </div>
+
+        </div>
+
+   
+      </div>
+    </section> 
+     <!--Fin de servcios-->
+
+     <!--informacion-->
+    <section class="informacion" id ="informacion">
+      <h2  class="text-center py-2">Información</h2>
+      <div class="row  no-gutters imagen">
+        <div class="col-md-6 col-sm-12">
+         <img src="img/img5.jpg" class="img-fluid imagen"> 
+        </div>
+        <div class="col-md-6 col-sm-12 ">
+          <div class="row no-gutters title informacion1">
+          <div class="offset-2 col-8 offset-2 align-self-center">  
+           <div class="descripcion">
+            <h3>Nuestros</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui accusantium eum. Rem, quod atque? Voluptates sint consequuntur adipisci temporibus repellat natus molestiae aliquid deserunt ea. Aut rem accusantium porro?
+            </p>
+           </div> 
+           </div>
+        </div>
+      </div>
+      </div>
+      <div class="row  no-gutters imagen">
+        
+        <div class="col-md-6 col-sm-12 ">
+          <div class="row no-gutters title informacion2">
+          <div class="offset-2 col-8 offset-2 align-self-center">  
+           <div class="descripcion">
+            <h3>Compañias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui accusantium eum. Rem, quod atque? Voluptates sint consequuntur adipisci temporibus repellat natus molestiae aliquid deserunt ea. Aut rem accusantium porro?
+            </p>
+           </div> 
+           </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="img/img6.jpg" class="img-fluid imagen"> 
+       </div>
+      </div>
+      <div class="row  no-gutters imagen">
+        <div class="col-md-6 col-sm-12">
+         <img src="img/img7.jpg" class="img-fluid imagen"> 
+        </div>
+        <div class="col-md-6 col-sm-12 ">
+          <div class="row no-gutters title informacion3">
+          <div class="offset-2 col-8 offset-2 align-self-center">  
+           <div class="descripcion">
+            <h3>Opreraciones</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui accusantium eum. Rem, quod atque? Voluptates sint consequuntur adipisci temporibus repellat natus molestiae aliquid deserunt ea. Aut rem accusantium porro?
+            </p>
+           </div> 
+           </div>
+        </div>
+      </div>
+      </div>
+    </section>
+   
+    
+    <!--Fin de informacion-->
+   
+    <!--incio reseñas-->
+    
+   
+        <section class="somos container" id="testimonios">
+            <h2 class="text-center py-3">Testimonial</h2>
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/img8.jpg" class="card-img-top testimonio" alt="testimonial1">
+                        <div class="card-body">
+                            <h5 class="card-title">Alonso</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ullam odit incidunt, impedit dolores fuga quasi quis? 
+                                Totam quos voluptatum veritatis voluptas rerum! Eveniet eos a possimus illum hic qui?</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/img9.jpg " class="card-img-top testimonio" alt="Testimonial2">
+                        <div class="card-body">
+                            <h5 class="card-title">Erman</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus alias animi blanditiis! Quidem, dolore ut. Omnis culpa, earum corporis blanditiis, saepe reprehenderit voluptatem minus dignissimos architecto quisquam labore inventore error.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/img10.jpg" class="card-img-top testimonio" alt="testimonial3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rem</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit molestiae distinctio recusandae autem dignissimos. Accusantium consequuntur sint asperiores natus quidem architecto voluptatibus fugit illum est, ex debitis vel dolor aliquid?</p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    
+
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer id="footer">
+        <div class="container-fluid text-center py-4">
+
+            <h4>Contacto:</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Plaza Zapopan Cumbres Monterrey Nuevo Leon
+            </p>
+            <p><i class="fas fa-phone"></i> Telefono:#99-9999-000</p>
+            </i>
+            <p><i class="fas fa-envelope-square"></i> Correo:nuevo@coreo.com</p>
+            <p>Plataformas y sistemas S.A. C.V. copy; 2020  </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+
+</body>
+
+</html>

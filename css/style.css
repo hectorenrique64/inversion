@@ -1,0 +1,144 @@
+html{
+    box-sizing: border-box;
+  }
+  
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+
+html,
+
+body {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    background-color: #e4ecfa!important;
+
+}
+
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (min-width:968px) {
+.logo{
+  padding: 0 200px 0 200px !important;
+}
+}
+
+#inicio{
+  padding-bottom: 100px!important;
+}
+
+.navegacion{
+  height: 90px;
+z-index: 1;
+
+}
+
+
+
+.nav-item a{
+color:black;
+}
+
+@media(max-width:1024px){
+  .menu{
+    color: wheat !important;
+    background-color: rgba(31, 15, 15, 0.438) ;
+    }
+
+    .nav .nav-item a:hover{
+      color: rgb(46, 46, 97);
+      }
+
+  }
+
+
+.nav-item a:hover{
+color:rgb(95, 31, 50);
+}
+
+
+
+
+.slogan{
+  background-color: rgba(8, 46, 151, 0.836);
+  color: whitesmoke;
+
+}
+
+.title{
+min-height: 100%;
+}
+
+@media(max-width:768px){
+  .slogan{
+      height: 25rem !important;
+    
+}
+
+}
+
+@media(min-width:768px){
+  .ladding{
+    height: 40rem!important;
+    }
+}
+
+
+.titulo{
+  padding: 20px 0 20px 0;
+}
+
+.informacion1{
+background-color: rgba(47, 175, 226, 0.815);
+color: cornsilk;
+
+
+  }
+
+
+  @media(max-width:768px){
+    .informacion1{
+      height: 20rem!important;
+      }
+    .informacion2{
+        height: 20rem!important;
+     }
+    .informacion3{
+          height: 20rem!important;
+      }
+  }
+
+  
+.informacion2{
+  background-color: rgba(20, 57, 179, 0.753);
+  color: rgb(255, 255, 255);
+    }
+
+    
+.informacion3{
+  background-color: rgba(17, 240, 229, 0.753);
+  color: rgb(255, 255, 255);
+    }
+
+
+.imagen{
+  width: 100%;
+}
+
+.testimonio{
+   filter: grayscale(100%);
+   -webkit-transition: all 1.0s ease-in-out !important;
+   -moz-transition: all 1.0s ease-in-out !important;
+   transition:all 1.0s ease-in-out !important; 
+  
+}
+
+.testimonio:hover{
+  filter:grayscale(0%);
+  border-radius: 50%;
+ 
+}
+
+
